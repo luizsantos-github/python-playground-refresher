@@ -43,6 +43,13 @@ print("""
 longString = 'This is a long ass string'
 print(len(longString))
 
+# Slicing
+word = 'Python'
+print(word[0:2]) # first position is included while the last is excluded
+# Slices (start is always included and last is always excluded)
+
+# Using an index out of bounds results into an error
+# Out of range slices are handled gracefully
 
 # Unlike strings, which are immutable, 
 # lists are a mutable type, 
